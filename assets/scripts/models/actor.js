@@ -1,0 +1,1 @@
+define(["underscore","backbone","scripts/models/base"],function(a,c,d){var b=d.extend({});return b});

@@ -1,0 +1,1 @@
+define(["underscore","backbone","scripts/models/actor"],function(a,d,b){var c=d.Collection.extend({model:b,parse:function(e){this.reset(e.results)}});return c});

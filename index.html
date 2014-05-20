@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movier</title>
+        <!-- css -->
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="assets/css/style.css" />         
+        <!-- scripts -->
+        <script type="text/javascript" data-main="assets/main" src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.11/require.min.js"></script>        
+    </head>
+    <body>
+    	<!-- Main Div -->
+    	<div id="main" >
+        	<!-- Big Search Div -->
+            <div id="bigsearch">            
+    		    <!-- Header Div -->
+    		    <div id="header" class="bigsearchheader" >					   
+                    <div id="bigsearcherrorheader" >                       
+                        <p id="bigsearcherrormessage"></p>                                            
+                    </div>                
+			    </div>                
+    		    <!-- Center Div -->
+    	        <div id="center" class="bigsearchcenter">	
+				    <img src="assets/img/movienight.png" alt="mainimage" ></br>
+                    <input type="radio" name="queryelement" value="actor" checked>Actor
+                    <input type="radio" name="queryelement" value="movie">Movie </br>
+        		    <input id="queryinput" name="query" size="90">
+                    <button id="searchButton" type="button"> Search </button>
+			    </div>
+			    <!-- Footer Div -->
+			    <div id="footer" class="bigsearchfooter" >					    
+			    </div>	
+            </div>
+            <!-- Small Search Div -->
+            <div id="smallsearch" class="smallsearch">            
+                <!-- Header Div -->                
+                <div id="smallsearchheader" class="smallsearchheader" >                     
+                    <img id="small" src="assets/img/movienight146x75.png" alt="mainimage" >                    
+                    <input id="smallsearchqueryinput" name="query" size="90">              
+                    <input type="radio" name="smallsearchqueryelement" value="actor">Actor
+                    <input type="radio" name="smallsearchqueryelement" value="movie">Movie
+                    <button id="smallsearchbutton" type="button"> Search </button>
+                    <div id="smallsearcherrorheader" >                       
+                        <p id="smallsearcherrormessage"></p>                                            
+                    </div>                
+                </div>
+                <div id="smallsearchoptionsheader" class="smallsearchoptionsheader">                                         
+                    <button id="sortButton" type="button"> Older Movies First! </button>
+                </div>
+                <!-- Left Actor Div -->
+                <div id="smallsearchactordetail" class="smallsearchactordetail">                      
+                    <img id="actorpicture" alt="actorimage" ></br>
+                    <p id="actorname"></p>                    
+                    <p id="actorbirthday"></p>
+                    <p id="actorplace_of_birth"></p>                    
+                    <p id="actorhomepage"></p>
+                </div>
+                <!-- Left Actor Div -->
+                <div id="smallsearchmoviedetail" class="smallsearchmoviedetail">            
+                    <img id="moviepicture" alt="actorimage" ></br>
+                    <p id="movietitle"></p>                    
+                    <p id="movierelease_date"></p>
+                    <p id="movieoverview" class="movieoverview"></p>                    
+                </div>
+                <!-- Center Div -->
+                <div id="smallsearchlist" class="smallsearchlist">  
+                    
+                </div>
+                <!-- Footer Div -->
+                <div id="smallsearchfooter" class="smallsearchfooter" >                        
+                </div>  
+            </div>	
+		</div>
+    </body>
+</html>

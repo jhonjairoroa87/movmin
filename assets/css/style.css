@@ -1,0 +1,91 @@
+
+body {
+    margin:0; 
+    padding:0; 
+    height:100%; 
+    width:100%; 
+    overflow:auto;
+}
+
+/*
+    Big search classes
+*/
+.bigsearchheader {
+    position:absolute; 
+    top:0px;
+}
+
+.bigsearchcenter {
+    position:absolute; 
+    top:190px; 
+    left:200px; 
+    min-width:800px; 
+    min-height:300px; 
+    text-align:center; 
+    overflow:hidden;
+}
+
+.bigsearchfooter {
+    position:absolute; 
+    bottom:0px;
+}
+
+/*
+    Small search classes
+*/
+
+.smallsearch {
+    display:none;
+}
+
+.smallsearchheader {
+    position:absolute; 
+    top:0px;
+}
+
+.smallsearchoptionsheader {
+    position:absolute; 
+    left:930px; 
+    top:57px;
+}
+
+.smallsearchactordetail {
+    position:absolute; 
+    top:100px; 
+    width:200px; 
+    min-height:300px; 
+    overflow:hidden;
+}
+
+.smallsearchmoviedetail {
+   display:none;
+   position:absolute; 
+   top:100px; 
+   min-width:800px; 
+   min-height:300px; 
+   overflow:hidden;"
+}
+
+.smallsearchlist {
+   position:absolute; 
+   top:100px; 
+   left:200px; 
+   min-width:800px; 
+   min-height:300px; 
+   overflow:hidden;"
+}
+
+.movieoverview {   
+   width:100px;    
+}
+
+
+
+.smallsearchfooter {
+  position:absolute; bottom:0px
+}
+
+.moviecard {
+    
+}
+
